@@ -1,0 +1,1219 @@
+Log file open, 07/23/14 14:31:02
+LogInit:Display: Running engine for game: UE4_Files
+LogInit: Version: 4.3.0-2215663+++depot+UE4-Releases+4.3
+LogInit: API Version: 2215663
+LogInit: Compiled (64-bit): Jul 14 2014 22:23:33
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.3
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.3/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.07.23-19.31.02:832][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.07.23-19.31.02:864][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.07.23-19.31.02:876][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.07.23-19.31.02:883][  0]LogInit: Object subsystem initialized
+[2014.07.23-19.31.02:884][  0]LogInit: Selected Device Profile: [Windows]
+[2014.07.23-19.31.02:884][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.07.23-19.31.02:891][  0]LogInit: Computer: RECORDING_07
+[2014.07.23-19.31.02:891][  0]LogInit: User: josh
+[2014.07.23-19.31.02:891][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.07.23-19.31.02:891][  0]LogInit: High frequency timer resolution =3.293564 MHz
+[2014.07.23-19.31.02:892][  0]LogMemory: Memory total: Physical=12.0GB (12GB approx) Virtual=8192.0GB
+[2014.07.23-19.31.02:892][  0]LogMemory: Platform Memory Stats for Windows
+[2014.07.23-19.31.02:892][  0]LogMemory: Process Physical Memory: 60.48 MB used, 60.48 MB peak
+[2014.07.23-19.31.02:892][  0]LogMemory: Process Virtual Memory: 37.52 MB used, 37.52 MB peak
+[2014.07.23-19.31.02:892][  0]LogMemory: Physical Memory: 4567.12 MB used, 12278.89 MB total
+[2014.07.23-19.31.02:892][  0]LogMemory: Virtual Memory: 243.93 MB used, 8388608.00 MB total
+[2014.07.23-19.31.02:928][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 460  (Feature Level 11_0)
+[2014.07.23-19.31.02:928][  0]LogD3D11RHI: Adapter has 978MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 2 output[s]
+[2014.07.23-19.31.02:928][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.07.23-19.31.02:933][  0]LogRHI: Texture pool is 684 MB (70% of 978 MB)
+[2014.07.23-19.31.02:940][  0]LogD3D11RHI: Async texture creation enabled
+[2014.07.23-19.31.03:039][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.07.23-19.31.03:923][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.07.23-19.31.04:101][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.07.23-19.31.04:156][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.07.23-19.31.04:199][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/josh/AppData/Local/UnrealEngine/4.3/DerivedDataCache/Boot.ddc.
+[2014.07.23-19.31.04:199][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/josh/AppData/Local/UnrealEngine/4.3/DerivedDataCache/Boot.ddc
+[2014.07.23-19.31.04:199][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.07.23-19.31.04:199][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.07.23-19.31.04:215][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.07.23-19.31.04:226][  0]LogDerivedDataCache: Using Local data cache path C:/Users/josh/AppData/Local/UnrealEngine/4.3/DerivedDataCache: Writable
+[2014.07.23-19.31.04:416][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.07.23-19.31.04:416][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.07.23-19.31.04:810][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.07.23-19.31.05:743][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Experimental/Paper2D/Content/DefaultPaperTerrainMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.07.23-19.31.05:743][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Experimental/Paper2D/Content/DummySprite.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.07.23-19.31.05:746][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.07.23-19.31.05:837][  0]SourceControl: Info Source control is disabled
+[2014.07.23-19.31.05:837][  0]SourceControl: Info Source control is disabled
+[2014.07.23-19.31.05:847][  0]SourceControl: Info Source control is disabled
+[2014.07.23-19.31.06:031][  0]BlueprintLog: New page: Editor Load
+[2014.07.23-19.31.06:092][  0]LogObj: 20191 objects as part of root set at end of initial load.
+[2014.07.23-19.31.06:092][  0]LogUObjectAllocator: 3997440 out of 0 bytes used by permanent object pool.
+[2014.07.23-19.31.06:216][  0]LogEngine: Initializing Engine...
+[2014.07.23-19.31.06:333][  0]LogInit: XAudio2 using 'Speakers (2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.07.23-19.31.06:343][  0]LogInit: FAudioDevice initialized.
+[2014.07.23-19.31.06:366][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.07.23-19.31.06:387][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/josh/AppData/Local/UnrealEngine/4.3/DerivedDataCache/Boot.ddc.
+[2014.07.23-19.31.06:393][  0]LogInit: Texture streaming: Enabled
+[2014.07.23-19.31.06:434][  0]LogInit: Transaction tracking system initialized
+[2014.07.23-19.31.06:576][  0]LogAssetRegistry: FAssetRegistry took 0.0095 seconds to start up
+[2014.07.23-19.31.06:808][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.07.23-19.31.06:868][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.07.23-19.31.07:038][  0]LogConsoleResponse:Display: 
+[2014.07.23-19.31.07:265][  0]SourceControl: Info Source control is disabled
+[2014.07.23-19.31.07:265][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1
+[2014.07.23-19.31.07:266][  0]LightingResults: New page: Lighting Build
+[2014.07.23-19.31.07:278][  0]MapCheck: New page: Map Check
+[2014.07.23-19.31.07:278][  0]LightingResults: New page: Lighting Build
+[2014.07.23-19.31.07:291][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000106EE980
+[2014.07.23-19.31.07:457][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.07.23-19.31.07:458][  0]LogAIModule: Creating AISystem for world Template_Default
+[2014.07.23-19.31.07:458][  0]Cmd: MAP CHECKDEP
+[2014.07.23-19.31.07:458][  0]MapCheck: New page: Untitled_1 - Jul 23, 2014, 9:31:07 AM
+[2014.07.23-19.31.07:532][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [74.257ms] ==========
+[2014.07.23-19.31.07:532][  0]LogFileHelpers: Loading map 'Template_Default' took 0.267
+[2014.07.23-19.31.07:675][  0]LogCollectionManager: Loaded 0 collections in 0.001477 seconds
+[2014.07.23-19.31.07:693][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2014.07.23-19.31.07:823][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.07.23-19.31.07:885][  0]LogLoad: Full Startup: 6.16 seconds (BP compile: 0.06 seconds)
+[2014.07.23-19.31.07:953][  0]LogSlate: SRTH: 000000000D737040, 753 x 569
+[2014.07.23-19.31.08:000][  1]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>C83F4CB8AC41C90C</RequestId><HostId>cPwDksmW3cEYpRx6HF/McHrQQVCf2DWo0tuHZrTl00jmfduKeBFu+KJMnFQM/IT8</HostId></Error>
+[2014.07.23-19.31.08:013][  1]LogAssetRegistry: Asset discovery search completed in 1.4470 seconds
+[2014.07.23-19.31.08:030][  2]LogRenderer:Warning: Reallocating scene render targets to support 760x576.
+[2014.07.23-19.31.08:420][  2]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>E394C94BB328E7EA</RequestId><HostId>T39ayzx7amzGjwWPjK7+6IRcMCiMvurwdKzeNd/dP1gNOKIHvtUicOCrFHfYLQ74</HostId></Error>
+[2014.07.23-19.31.08:458][  3]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>60C89F278B7BD994</RequestId><HostId>sgeVCYyAsC4mFiwPx5dW31iHfumIOQORC4LhNdcWMU9gtXIVP6GPnK+770dJb70IjyDkDjMmmOE=</HostId></Error>
+[2014.07.23-19.31.08:497][  4]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>00357448E5465A9C</RequestId><HostId>YbZN7hJA+v1MZjsY2dZF1gSbnYatbbUoqXNDnu8KjYqROJL/XBS57sr6Ff3eBcxa</HostId></Error>
+[2014.07.23-19.31.08:557][  6]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>E9F48D38AFFFCE10</RequestId><HostId>0TP2vt1k8El2SUm6/2k58pCnyhS3BAuSvvKTFhN6ZJXbahvBvJ7AHRc4OPncRkVk</HostId></Error>
+[2014.07.23-19.31.08:582][  7]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.23-19.31.08:583][  7]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.23-19.31.17:012][344]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/DT_Props'
+[2014.07.23-19.32.24:787][777]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/DT_Materials'
+[2014.07.23-19.32.29:965][926]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.07.23-19.32.29:997][926]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2014.07.23-19.32.30:056][926]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2014.07.23-19.32.30:056][926]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2014.07.23-19.32.30:087][926]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_8, compiling.
+[2014.07.23-19.32.30:089][926]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_9, compiling.
+[2014.07.23-19.32.30:091][926]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_27, compiling.
+[2014.07.23-19.32.30:093][926]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_25, compiling.
+[2014.07.23-19.32.30:095][926]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_26, compiling.
+[2014.07.23-19.32.30:097][926]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_12, compiling.
+[2014.07.23-19.32.30:099][926]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling.
+[2014.07.23-19.32.30:100][926]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_31, compiling.
+[2014.07.23-19.32.30:103][926]MaterialEditorStats: Info Base pass shader with static lighting: 112 instructions
+[2014.07.23-19.32.30:103][926]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 81 instructions
+[2014.07.23-19.32.30:103][926]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.07.23-19.32.30:103][926]MaterialEditorStats: Info Texture samplers: 7/16
+[2014.07.23-19.32.30:197][926]LogSlate: SRTH: 000000001BCA2800, 170 x 241
+[2014.07.23-19.32.37:400][104]LogSlate: SRTH: 000000001BB06B00, 268 x 423, prev 0000000000000000
+[2014.07.23-19.34.01:473][758]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015EDF6A0
+[2014.07.23-19.34.05:693][982]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/DT_Textures'
+[2014.07.23-19.34.38:484][319]Cmd: MAP LOAD FILE="../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Content/Maps/04_Begin.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.07.23-19.34.38:485][319]LightingResults: New page: Lighting Build
+[2014.07.23-19.34.38:497][319]LoadErrors: New page: Loading map: 04_Begin.umap
+[2014.07.23-19.34.38:497][319]MapCheck: New page: Map Check
+[2014.07.23-19.34.38:497][319]LightingResults: New page: Lighting Build
+[2014.07.23-19.34.38:513][319]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000A873740
+[2014.07.23-19.34.38:533][319]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.07.23-19.34.38:533][319]LogAIModule: Creating AISystem for world 04_Begin
+[2014.07.23-19.34.38:543][319]Cmd: MAP CHECKDEP
+[2014.07.23-19.34.38:543][319]MapCheck: New page: 04_Begin - Jul 23, 2014, 9:34:38 AM
+[2014.07.23-19.34.38:613][319]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [69.924ms] ==========
+[2014.07.23-19.34.38:613][319]LogFileHelpers: Loading map '04_Begin' took 0.129
+[2014.07.23-19.41.39:687][ 26]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/DT_Materials'
+[2014.07.23-19.41.40:216][ 66]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Audio'
+[2014.07.23-19.41.41:451][162]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/DT_Textures'
+[2014.07.23-19.41.42:138][214]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Environment'
+[2014.07.23-19.41.42:704][260]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2014.07.23-19.41.43:346][312]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2014.07.23-19.41.44:356][389]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Audio'
+[2014.07.23-19.41.57:211][330]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2014.07.23-19.42.06:756][173]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2014.07.23-19.42.15:163][792]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/TestFolder'
+[2014.07.23-19.42.25:186][541]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/DT_Props'
+[2014.07.23-19.42.48:906][843]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/FBX Files/crate_mesh.fbx)
+[2014.07.23-19.42.48:997][843]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2014.07.23-19.42.48:997][843]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2014.07.23-19.42.48:997][843]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2014.07.23-19.42.48:997][843]LogFbx: ItemName: Model, ItemCount : 1
+[2014.07.23-19.42.48:997][843]LogFbx: ItemName: Geometry, ItemCount : 1
+[2014.07.23-19.42.48:997][843]LogFbx: ItemName: Material, ItemCount : 1
+[2014.07.23-19.42.48:997][843]LogFbx: ItemName: Texture, ItemCount : 1
+[2014.07.23-19.42.48:997][843]LogFbx: ItemName: Video, ItemCount : 1
+[2014.07.23-19.44.06:304][843]LogFbx: Loading FBX Scene from ../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/FBX Files/crate_mesh.fbx
+[2014.07.23-19.44.06:328][843]LogFbx: FBX Scene Loaded Succesfully
+[2014.07.23-19.44.06:352][843]LogFbx:Warning: Triangulating static mesh polySurface2
+[2014.07.23-19.44.06:424][843]LogFbx: == Initial material list:
+[2014.07.23-19.44.06:424][843]LogFbx: 0: lambert2
+[2014.07.23-19.44.06:424][843]LogFbx: == After sorting:
+[2014.07.23-19.44.06:424][843]LogFbx: 0: lambert2
+[2014.07.23-19.44.06:424][843]LogFbx: == Mapping table:
+[2014.07.23-19.44.06:424][843]LogFbx:   sort 0 -> 0
+[2014.07.23-19.44.06:426][843]LogStaticMesh: Building static mesh crate_mesh...
+[2014.07.23-19.44.06:428][843]LogStaticMesh: Built static mesh [3.661990ms] /Game/DT_Props/crate_mesh.crate_mesh
+[2014.07.23-19.44.06:456][843]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.07.23-19.44.06:456][843]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/DT_Props'
+[2014.07.23-19.44.10:614][ 88]LogSlate: SRTH: 000000001B653DC0, 1244 x 861
+[2014.07.23-19.44.10:636][ 88]LogRenderer:Warning: Reallocating scene render targets to support 1248x864.
+[2014.07.23-19.44.12:719][176]LogSlate: SRTH: 000000001B653E80, 805 x 500, prev 0000000000000000
+[2014.07.23-19.44.22:352][668]LogSlate: SRTH: 000000001B653F40, 947 x 569, prev 0000000000000000
+[2014.07.23-19.44.36:797][611]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/04_Begin' took 0.014
+[2014.07.23-19.44.36:813][611]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/DT_Props/crate_mesh] ([1] browsable assets)...
+[2014.07.23-19.44.36:850][611]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/DT_Props/crate_mesh.crate_mesh]
+[2014.07.23-19.44.36:850][611]OBJ SavePackage: Finished generating thumbnails for package [/Game/DT_Props/crate_mesh]
+[2014.07.23-19.44.37:244][611]LogSavePackage: Save=370.737610ms
+[2014.07.23-19.44.37:244][611]LogSavePackage: Moving '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/crate_mesh_Auto115562B374147F47EF2B4EAAABDC7B789.tmp' to '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/Autosaves/Game/DT_Props/crate_mesh_Auto1.uasset'
+[2014.07.23-19.44.37:255][611]LogFileHelpers: Auto-saving content packages took 0.458
+[2014.07.23-19.45.47:489][405]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DT_Props/crate_mesh" FILE="../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Content/DT_Props/crate_mesh.uasset" SILENT=true
+[2014.07.23-19.45.47:855][405]LogSavePackage: Save=361.002838ms
+[2014.07.23-19.45.47:855][405]LogSavePackage: Moving '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/crate_mesh98F6E23443E424CE9FCB4D8BFABF982A.tmp' to '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Content/DT_Props/crate_mesh.uasset'
+[2014.07.23-19.45.56:390][758]LogSlate: SRTH: 000000001BBDE5C0, 747 x 560, prev 0000000000000000
+[2014.07.23-19.46.09:197][926]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.23-19.46.09:198][926]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.23-19.47.20:439][542]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/DT_Materials'
+[2014.07.23-19.47.30:994][634]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/DT_Materials'
+[2014.07.23-19.48.17:387][424]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-19.48.17:395][424]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2014.07.23-19.48.17:426][424]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2014.07.23-19.48.17:426][424]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2014.07.23-19.48.17:426][424]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2014.07.23-19.48.17:427][424]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2014.07.23-19.48.17:490][424]LogSlate: SRTH: 0000000016C6E200, 170 x 242
+[2014.07.23-19.48.21:906][752]LogSlate: SRTH: 000000000CE21840, 200 x 272, prev 0000000000000000
+[2014.07.23-19.49.32:695][923]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/DT_Textures'
+[2014.07.23-19.50.55:423][967]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-19.50.55:426][967]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.07.23-19.50.56:995][ 64]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 63 instructions
+[2014.07.23-19.50.56:995][ 64]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.07.23-19.50.56:995][ 64]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.07.23-19.51.28:332][597]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-19.51.28:336][597]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2014.07.23-19.51.29:929][717]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 63 instructions
+[2014.07.23-19.51.29:929][717]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.07.23-19.51.29:929][717]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.07.23-19.51.43:081][576]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-19.51.43:804][630]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 63 instructions
+[2014.07.23-19.51.43:804][630]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.07.23-19.51.43:804][630]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.07.23-19.52.28:520][372]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-19.52.28:546][372]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.07.23-19.52.30:081][465]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2014.07.23-19.52.30:081][465]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.07.23-19.52.30:082][465]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.07.23-19.53.34:496][393]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-19.53.34:499][393]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2014.07.23-19.53.36:143][490]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2014.07.23-19.53.36:143][490]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.07.23-19.53.36:143][490]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.07.23-19.54.09:419][975]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-19.54.11:158][ 74]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2014.07.23-19.54.11:158][ 74]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.07.23-19.54.11:158][ 74]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.07.23-19.54.21:959][226]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-19.54.22:684][272]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2014.07.23-19.54.22:684][272]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.07.23-19.54.22:684][272]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.07.23-19.54.25:425][458]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-19.54.26:189][508]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2014.07.23-19.54.26:189][508]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.07.23-19.54.26:189][508]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.07.23-19.54.37:384][ 79]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015D92E80
+[2014.07.23-19.54.37:384][ 79]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/04_Begin' took 0.014
+[2014.07.23-19.54.37:397][ 79]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/DT_Materials/M_PaintedWood] ([1] browsable assets)...
+[2014.07.23-19.54.37:433][ 79]OBJ SavePackage:     Rendered thumbnail for [Material /Game/DT_Materials/M_PaintedWood.M_PaintedWood]
+[2014.07.23-19.54.37:433][ 79]OBJ SavePackage: Finished generating thumbnails for package [/Game/DT_Materials/M_PaintedWood]
+[2014.07.23-19.54.37:754][ 79]LogSavePackage: Save=301.522919ms
+[2014.07.23-19.54.37:754][ 79]LogSavePackage: Moving '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/M_PaintedWood_Auto2CEDF888E43707B93165B05BEC221FB92.tmp' to '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/Autosaves/Game/DT_Materials/M_PaintedWood_Auto2.uasset'
+[2014.07.23-19.54.37:766][ 79]LogFileHelpers: Auto-saving content packages took 0.382
+[2014.07.23-19.54.44:035][736]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-19.54.44:063][736]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2014.07.23-19.54.44:885][792]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2014.07.23-19.54.44:885][792]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.07.23-19.54.44:885][792]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.07.23-19.54.46:834][973]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-19.54.46:860][973]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.07.23-19.54.47:606][ 12]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2014.07.23-19.54.47:606][ 12]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.07.23-19.54.47:606][ 12]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.07.23-19.54.55:321][501]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-19.54.55:331][501]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_0, compiling.
+[2014.07.23-19.54.56:117][535]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2014.07.23-19.54.56:117][535]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.07.23-19.54.56:117][535]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.07.23-19.55.11:606][494]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-19.55.11:734][494]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2014.07.23-19.55.11:738][494]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_0, compiling.
+[2014.07.23-19.55.12:398][539]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2014.07.23-19.55.12:398][539]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.07.23-19.55.12:398][539]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.07.23-19.55.13:984][697]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-19.55.14:037][697]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.07.23-19.55.14:039][697]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_0, compiling.
+[2014.07.23-19.55.14:779][751]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2014.07.23-19.55.14:779][751]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.07.23-19.55.14:779][751]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.07.23-19.55.43:909][994]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-19.55.43:912][994]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling.
+[2014.07.23-19.55.45:495][ 97]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2014.07.23-19.55.45:495][ 97]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.07.23-19.55.45:495][ 97]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.07.23-19.55.54:352][687]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-19.55.54:369][687]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-19.55.54:397][687]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling.
+[2014.07.23-19.55.55:125][738]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2014.07.23-19.55.55:125][738]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.07.23-19.55.55:125][738]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.07.23-19.56.11:243][861]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-19.56.11:991][913]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2014.07.23-19.56.11:991][913]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.07.23-19.56.11:991][913]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.07.23-19.56.16:688][318]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-19.56.16:721][318]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2014.07.23-19.56.17:497][372]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2014.07.23-19.56.17:497][372]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.07.23-19.56.17:497][372]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.07.23-19.56.19:245][551]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-19.56.19:281][551]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling.
+[2014.07.23-19.56.20:047][593]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2014.07.23-19.56.20:047][593]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.07.23-19.56.20:047][593]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.07.23-19.56.22:229][803]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-19.56.22:239][803]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_0, compiling.
+[2014.07.23-19.56.22:945][829]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2014.07.23-19.56.22:945][829]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.07.23-19.56.22:945][829]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.07.23-19.56.26:226][123]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-19.56.26:298][123]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_0, compiling.
+[2014.07.23-19.56.26:300][123]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_0, compiling.
+[2014.07.23-19.56.26:964][151]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2014.07.23-19.56.26:964][151]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.07.23-19.56.26:964][151]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.07.23-19.56.37:596][826]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-19.56.37:615][826]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-19.56.37:639][826]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling.
+[2014.07.23-19.56.38:416][869]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2014.07.23-19.56.38:416][869]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.07.23-19.56.38:416][869]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.07.23-19.56.56:378][ 38]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-19.56.56:442][ 38]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2014.07.23-19.56.56:444][ 38]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_0, compiling.
+[2014.07.23-19.56.57:191][ 90]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2014.07.23-19.56.57:191][ 90]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.07.23-19.56.57:191][ 90]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.07.23-19.57.12:257][143]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-19.57.12:261][143]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-19.57.12:379][143]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling.
+[2014.07.23-19.57.13:091][202]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2014.07.23-19.57.13:091][202]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.07.23-19.57.13:091][202]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.07.23-19.57.27:388][346]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-19.57.27:413][346]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_0, compiling.
+[2014.07.23-19.57.28:227][385]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 70 instructions
+[2014.07.23-19.57.28:227][385]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.07.23-19.57.28:227][385]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.07.23-19.58.15:135][295]LogSavePackage: Save=24.933781ms
+[2014.07.23-19.58.15:135][295]LogSavePackage: Moving '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/06_BeginED423A7A4DB66E29581BA39810B4A2E7.tmp' to '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Content/Maps/06_Begin.umap'
+[2014.07.23-19.58.15:151][295]LogFileHelpers: Saving map '06_Begin' took 0.220
+[2014.07.23-19.58.20:999][409]LogSavePackage: Save=23.973118ms
+[2014.07.23-19.58.20:999][409]LogSavePackage: Moving '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/05_Begin0A1BFAA4479D63418D72FE98A578DBAD.tmp' to '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Content/Maps/05_Begin.umap'
+[2014.07.23-19.58.21:016][409]LogFileHelpers: Saving map '05_Begin' took 0.153
+[2014.07.23-19.58.27:978][590]LogSavePackage: Save=282.920563ms
+[2014.07.23-19.58.27:978][590]LogSavePackage: Moving '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/M_PaintedWood211860844689A10463BFE9AFCE38A4F6.tmp' to '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Content/DT_Materials/M_PaintedWood.uasset'
+[2014.07.23-19.58.27:986][590]Cmd: MAP LOAD FILE="../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Content/Maps/06_Begin.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.07.23-19.58.27:987][590]LightingResults: New page: Lighting Build
+[2014.07.23-19.58.27:996][590]LoadErrors: New page: Loading map: 06_Begin.umap
+[2014.07.23-19.58.27:996][590]MapCheck: New page: Map Check
+[2014.07.23-19.58.27:997][590]LightingResults: New page: Lighting Build
+[2014.07.23-19.58.28:011][590]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015D91E40
+[2014.07.23-19.58.28:054][590]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.07.23-19.58.28:054][590]LogAIModule: Creating AISystem for world 06_Begin
+[2014.07.23-19.58.28:064][590]Cmd: MAP CHECKDEP
+[2014.07.23-19.58.28:064][590]MapCheck: New page: 06_Begin - Jul 23, 2014, 9:58:28 AM
+[2014.07.23-19.58.28:153][590]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [88.903ms] ==========
+[2014.07.23-19.58.28:153][590]LogFileHelpers: Loading map '06_Begin' took 0.167
+[2014.07.23-19.59.59:217][321]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-19.59.59:220][321]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling.
+[2014.07.23-20.00.00:790][413]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 70 instructions
+[2014.07.23-20.00.00:790][413]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.07.23-20.00.00:790][413]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.07.23-20.00.05:409][798]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-20.00.05:446][798]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling.
+[2014.07.23-20.00.06:214][851]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 73 instructions
+[2014.07.23-20.00.06:214][851]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.07.23-20.00.06:214][851]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.07.23-20.00.39:779][317]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-20.00.41:315][424]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 73 instructions
+[2014.07.23-20.00.41:315][424]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.07.23-20.00.41:315][424]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.07.23-20.00.45:423][821]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-20.00.45:458][821]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling.
+[2014.07.23-20.00.46:225][879]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 73 instructions
+[2014.07.23-20.00.46:225][879]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.07.23-20.00.46:225][879]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.07.23-20.01.08:403][590]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.23-20.01.08:404][590]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.23-20.01.43:366][736]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-20.01.44:974][848]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 73 instructions
+[2014.07.23-20.01.44:974][848]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.07.23-20.01.44:974][848]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.07.23-20.02.02:161][ 11]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-20.02.02:165][ 11]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-20.02.02:972][ 75]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 73 instructions
+[2014.07.23-20.02.02:972][ 75]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.07.23-20.02.02:972][ 75]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.07.23-20.02.06:643][401]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-20.02.07:436][463]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 73 instructions
+[2014.07.23-20.02.07:436][463]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.07.23-20.02.07:436][463]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.07.23-20.02.27:889][  3]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-20.02.27:919][  3]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2014.07.23-20.02.29:483][ 79]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 73 instructions
+[2014.07.23-20.02.29:484][ 79]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.07.23-20.02.29:484][ 79]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.07.23-20.02.33:815][457]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-20.02.34:604][516]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 75 instructions
+[2014.07.23-20.02.34:604][516]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.07.23-20.02.34:604][516]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.07.23-20.02.46:848][487]LogSlate: SRTH: 0000000015DF9240, 174 x 272, prev 0000000000000000
+[2014.07.23-20.02.47:621][565]LogSlate: SRTH: 000000000B4A9D80, 231 x 272, prev 0000000000000000
+[2014.07.23-20.02.56:143][161]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-20.02.56:147][161]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-20.02.57:764][286]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 75 instructions
+[2014.07.23-20.02.57:764][286]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.07.23-20.02.57:764][286]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.07.23-20.03.18:149][834]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-20.03.18:152][834]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling.
+[2014.07.23-20.03.19:705][932]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 75 instructions
+[2014.07.23-20.03.19:705][932]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.07.23-20.03.19:706][932]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.07.23-20.03.23:167][243]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-20.03.23:197][243]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling.
+[2014.07.23-20.03.23:998][281]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 81 instructions
+[2014.07.23-20.03.23:998][281]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.07.23-20.03.23:999][281]MaterialEditorStats: Info Texture samplers: 7/16
+[2014.07.23-20.04.41:287][748]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-20.04.41:291][748]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling.
+[2014.07.23-20.04.41:317][748]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling.
+[2014.07.23-20.04.41:346][748]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-20.04.41:419][748]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_0, compiling.
+[2014.07.23-20.04.41:421][748]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling.
+[2014.07.23-20.04.43:327][851]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 81 instructions
+[2014.07.23-20.04.43:327][851]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.07.23-20.04.43:327][851]MaterialEditorStats: Info Texture samplers: 7/16
+[2014.07.23-20.04.58:415][794]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-20.04.58:442][794]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling.
+[2014.07.23-20.04.58:451][794]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-20.04.59:501][851]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 81 instructions
+[2014.07.23-20.04.59:501][851]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.07.23-20.04.59:501][851]MaterialEditorStats: Info Texture samplers: 7/16
+[2014.07.23-20.05.21:031][307]LogMaterialEditor: Applying material M_PaintedWood
+[2014.07.23-20.05.21:303][307]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-20.05.21:339][307]LogMaterial: Missing cached shader map for material M_PaintedWood, compiling.
+[2014.07.23-20.05.21:360][307]LogMaterial: Missing cached shader map for material M_PaintedWood, compiling.
+[2014.07.23-20.05.21:364][307]LogMaterial: 0.000645 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.07.23-20.05.24:475][509]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 81 instructions
+[2014.07.23-20.05.24:475][509]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.07.23-20.05.24:475][509]MaterialEditorStats: Info Texture samplers: 7/16
+[2014.07.23-20.05.26:219][632]LogMaterialEditor: Saving and Compiling material M_PaintedWood
+[2014.07.23-20.05.26:493][632]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-20.05.26:530][632]LogMaterial: Missing cached shader map for material M_PaintedWood, compiling.
+[2014.07.23-20.05.26:539][632]LogMaterial: Missing cached shader map for material M_PaintedWood, compiling.
+[2014.07.23-20.05.26:545][632]LogMaterial: 0.000603 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.07.23-20.05.28:496][632]LogSavePackage: Save=149.624237ms
+[2014.07.23-20.05.28:496][632]LogSavePackage: Moving '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/M_PaintedWood887BC66B4E3EA0FF8B41799ED668D087.tmp' to '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Content/DT_Materials/M_PaintedWood.uasset'
+[2014.07.23-20.05.37:857][177]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/DT_Props'
+[2014.07.23-20.05.44:722][575]LogSlate: SRTH: 0000000025445600, 939 x 560
+[2014.07.23-20.05.55:527][262]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/DT_Materials'
+[2014.07.23-20.06.17:444][638]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DT_Props/crate_mesh" FILE="../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Content/DT_Props/crate_mesh.uasset" SILENT=true
+[2014.07.23-20.06.17:728][638]LogSavePackage: Save=278.214111ms
+[2014.07.23-20.06.17:728][638]LogSavePackage: Moving '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/crate_meshDDD23605448E2CE034226D8F4D416C22.tmp' to '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Content/DT_Props/crate_mesh.uasset'
+[2014.07.23-20.06.21:174][867]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/DT_Props'
+[2014.07.23-20.06.27:518][245]LogActorFactory: Actor Factory created crate_mesh
+[2014.07.23-20.06.28:836][382]LogActorFactory: Actor Factory created crate_mesh
+[2014.07.23-20.06.43:103][485]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/DT_Materials'
+[2014.07.23-20.07.03:634][367]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/DT_Materials'
+[2014.07.23-20.07.21:591][205]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2014.07.23-20.07.21:603][205]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2014.07.23-20.07.21:603][205]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2014.07.23-20.07.21:615][205]LogSlate: SRTH: 0000000020E62800, 914 x 560
+[2014.07.23-20.08.01:383][853]LogSavePackage: Save=118.361145ms
+[2014.07.23-20.08.01:383][853]LogSavePackage: Moving '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/M_PaintedWood_Inst8A974C3E4EB04A70FE29A0819E3EB608.tmp' to '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Content/DT_Materials/M_PaintedWood_Inst.uasset'
+[2014.07.23-20.08.24:316][839]LogSavePackage: Save=36.314156ms
+[2014.07.23-20.08.24:316][839]LogSavePackage: Moving '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/06_Begin_Auto3807E77144DD336EC0551468E2C93A0BC.tmp' to '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/Autosaves/Game/Maps/06_Begin_Auto3.umap'
+[2014.07.23-20.08.24:326][839]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/06_Begin' took 0.087
+[2014.07.23-20.08.24:326][839]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.087
+[2014.07.23-20.16.08:338][581]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.23-20.16.08:339][581]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.23-20.31.08:407][768]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.23-20.31.08:409][768]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.23-20.46.09:146][462]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.23-20.46.09:147][462]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.23-20.49.24:553][843]LogSlate: SRTH: 0000000020FE93C0, 747 x 557, prev 0000000000000000
+[2014.07.23-20.49.34:260][269]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/TestFolder'
+[2014.07.23-20.49.35:161][311]Cmd: DELETE
+[2014.07.23-20.49.35:161][311]Cmd: ACTOR DELETE
+[2014.07.23-20.49.35:162][311]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.07.23-20.49.35:176][311]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2014.07.23-20.49.38:283][442]Cmd: TRANSACTION UNDO
+[2014.07.23-20.49.38:283][442]LogEditorTransaction: Undo Delete Actors
+[2014.07.23-20.49.38:326][442]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-20.49.40:374][504]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 81 instructions
+[2014.07.23-20.49.40:374][504]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.07.23-20.49.40:374][504]MaterialEditorStats: Info Texture samplers: 7/16
+[2014.07.23-20.49.43:271][721]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.07.23-20.49.44:901][775]LogSavePackage: Save=50.748978ms
+[2014.07.23-20.49.44:901][775]LogSavePackage: Moving '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/06_Begin_Auto454B1C2504246313D903A36B21B5DAE0C.tmp' to '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/Autosaves/Game/Maps/06_Begin_Auto4.umap'
+[2014.07.23-20.49.44:915][775]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/06_Begin' took 0.144
+[2014.07.23-20.49.44:915][775]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.144
+[2014.07.23-20.49.44:927][775]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/DT_Materials/M_PaintedWood_Inst] ([1] browsable assets)...
+[2014.07.23-20.49.44:931][775]OBJ SavePackage: Finished generating thumbnails for package [/Game/DT_Materials/M_PaintedWood_Inst]
+[2014.07.23-20.49.45:001][775]LogSavePackage: Save=19.402994ms
+[2014.07.23-20.49.45:001][775]LogSavePackage: Moving '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/M_PaintedWood_Inst_Auto41DAB2A5C4845E1EEF7352CB2A1C0CE7F.tmp' to '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/Autosaves/Game/DT_Materials/M_PaintedWood_Inst_Auto4.uasset'
+[2014.07.23-20.49.45:013][775]LogFileHelpers: Auto-saving content packages took 0.099
+[2014.07.23-20.49.50:029][994]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2014.07.23-20.49.57:020][314]LogSlate: SRTH: 0000000020FEBAC0, 914 x 557, prev 0000000000000000
+[2014.07.23-20.50.00:375][464]LogSavePackage: Save=7.758161ms
+[2014.07.23-20.50.00:375][464]LogSavePackage: Moving '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/M_PaintedWood_Inst33D454E249AF6C4AA5B8868F35DE0F6E.tmp' to '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Content/DT_Materials/M_PaintedWood_Inst.uasset'
+[2014.07.23-20.50.01:439][514]LogSlate: SRTH: 000000002709B7C0, 939 x 557, prev 0000000000000000
+[2014.07.23-20.50.03:152][590]LogSlate: SRTH: 0000000025447340, 231 x 271, prev 0000000000000000
+[2014.07.23-20.50.07:564][661]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.07.23-20.50.07:601][661]LogMaterial: Missing cached shader map for material M_PaintedWood, compiling.
+[2014.07.23-20.50.07:610][661]LogMaterial: Missing cached shader map for material M_PaintedWood, compiling.
+[2014.07.23-20.50.07:614][661]LogMaterial: 0.000714 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2014.07.23-20.50.18:407][923]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000016C3C9A0
+[2014.07.23-20.50.18:407][923]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000117607C0
+[2014.07.23-20.50.18:407][923]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015DCB9C0
+[2014.07.23-20.50.18:441][923]LogSavePackage: Save=28.390522ms
+[2014.07.23-20.50.18:441][923]LogSavePackage: Moving '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/07_Begin7D3F39544B3497CABF94E59DCDDF9BA5.tmp' to '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Content/Maps/07_Begin.umap'
+[2014.07.23-20.50.18:460][923]LogFileHelpers: Saving map '07_Begin' took 0.603
+[2014.07.23-20.50.55:397][783]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/DT_Props'
+[2014.07.23-20.50.57:721][996]LogSlate: SRTH: 00000000064B34C0, 703 x 557, prev 0000000000000000
+[2014.07.23-20.51.04:710][551]LogActorFactory: Actor Factory created crate_mesh
+[2014.07.23-20.51.05:694][653]LogActorFactory: Actor Factory created crate_mesh
+[2014.07.23-20.51.10:054][114]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (crate_mesh)
+[2014.07.23-20.51.24:655][669]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (crate_mesh_2)
+[2014.07.23-20.51.25:452][752]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (crate_mesh)
+[2014.07.23-20.51.26:137][823]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (crate_mesh_2)
+[2014.07.23-20.53.48:398][563]Cmd: TRANSACTION UNDO
+[2014.07.23-20.53.48:398][563]LogEditorTransaction: Undo Scale Actors
+[2014.07.23-20.53.49:601][644]Cmd: TRANSACTION UNDO
+[2014.07.23-20.53.49:601][644]LogEditorTransaction: Undo Move Actors
+[2014.07.23-20.53.50:180][692]Cmd: TRANSACTION UNDO
+[2014.07.23-20.53.50:180][692]LogEditorTransaction: Undo Rotate Actors
+[2014.07.23-20.54.09:925][663]Cmd: MODE GRID=0
+[2014.07.23-20.54.10:569][708]Cmd: MODE ROTGRID=0
+[2014.07.23-20.54.11:378][769]Cmd: MODE SCALEGRID=0
+[2014.07.23-20.54.16:114][114]Cmd: MODE GRID=1
+[2014.07.23-20.54.17:111][181]Cmd: MODE ROTGRID=1
+[2014.07.23-20.54.18:049][255]Cmd: MODE SCALEGRID=1
+[2014.07.23-20.54.52:155][823]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (crate_mesh)
+[2014.07.23-20.55.02:150][865]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (crate_mesh)
+[2014.07.23-20.55.05:890][248]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (crate_mesh_2)
+[2014.07.23-20.55.36:795][450]Cmd: MODE GRID=0
+[2014.07.23-20.55.37:384][488]Cmd: MODE ROTGRID=0
+[2014.07.23-20.55.37:929][525]Cmd: MODE SCALEGRID=0
+[2014.07.23-20.55.42:513][946]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (crate_mesh_4)
+[2014.07.23-20.56.12:937][947]LogSlate: SRTH: 000000000D044B80, 539 x 557, prev 0000000000000000
+[2014.07.23-20.56.52:287][972]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (crate_mesh_3)
+[2014.07.23-20.57.01:111][977]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (crate_mesh_4)
+[2014.07.23-20.57.06:611][590]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (crate_mesh)
+[2014.07.23-20.57.44:353][770]LogActorFactory: Actor Factory created Shovel_mesh
+[2014.07.23-20.57.45:606][907]LogActorFactory: Actor Factory created Shovel_mesh
+[2014.07.23-20.58.11:025][756]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (crate_mesh_4)
+[2014.07.23-20.58.19:995][649]LogActorFactory: Actor Factory created table_mesh
+[2014.07.23-20.58.20:775][723]LogActorFactory: Actor Factory created table_mesh
+[2014.07.23-20.58.31:797][685]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Environment'
+[2014.07.23-21.00.13:067][353]LogSavePackage: Save=51.772789ms
+[2014.07.23-21.00.13:067][353]LogSavePackage: Moving '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/07_Begin_Auto53C6602CF40CBDC2E92C40EBE53F63AB7.tmp' to '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/Autosaves/Game/Maps/07_Begin_Auto5.umap'
+[2014.07.23-21.00.13:079][353]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/07_Begin' took 0.145
+[2014.07.23-21.00.13:079][353]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.145
+[2014.07.23-21.00.13:092][353]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/DT_Materials/M_PaintedWood] ([1] browsable assets)...
+[2014.07.23-21.00.13:120][353]OBJ SavePackage:     Rendered thumbnail for [Material /Game/DT_Materials/M_PaintedWood.M_PaintedWood]
+[2014.07.23-21.00.13:120][353]OBJ SavePackage: Finished generating thumbnails for package [/Game/DT_Materials/M_PaintedWood]
+[2014.07.23-21.00.13:468][353]LogSavePackage: Save=278.576630ms
+[2014.07.23-21.00.13:468][353]LogSavePackage: Moving '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/M_PaintedWood_Auto5A5F5A49C45A8F45BC51FA0BA0927B011.tmp' to '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/Autosaves/Game/DT_Materials/M_PaintedWood_Auto5.uasset'
+[2014.07.23-21.00.13:481][353]LogFileHelpers: Auto-saving content packages took 0.402
+[2014.07.23-21.01.08:572][378]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.23-21.01.08:573][378]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.23-21.05.52:384][643]Cmd: MAP LOAD FILE="../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Content/Maps/07_Begin.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.07.23-21.05.52:394][643]Cmd: MAP CHECKDEP
+[2014.07.23-21.05.52:394][643]MapCheck: New page: 07_Begin - Jul 23, 2014, 11:05:52 AM
+[2014.07.23-21.05.53:116][643]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [721.944ms] ==========
+[2014.07.23-21.05.53:116][643]LogFileHelpers: Loading map '07_Begin' took 0.733
+[2014.07.23-21.05.59:402][783]Cmd: MAP LOAD FILE="../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Content/Maps/06_Begin.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.07.23-21.05.59:402][783]LightingResults: New page: Lighting Build
+[2014.07.23-21.05.59:419][783]LoadErrors: New page: Loading map: 06_Begin.umap
+[2014.07.23-21.05.59:420][783]MapCheck: New page: Map Check
+[2014.07.23-21.05.59:420][783]LightingResults: New page: Lighting Build
+[2014.07.23-21.05.59:435][783]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000010CC7BA0
+[2014.07.23-21.05.59:559][783]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.07.23-21.05.59:559][783]LogAIModule: Creating AISystem for world 06_Begin
+[2014.07.23-21.05.59:569][783]Cmd: MAP CHECKDEP
+[2014.07.23-21.05.59:569][783]MapCheck: New page: 06_Begin - Jul 23, 2014, 11:05:59 AM
+[2014.07.23-21.05.59:646][783]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [77.171ms] ==========
+[2014.07.23-21.05.59:646][783]LogFileHelpers: Loading map '06_Begin' took 0.245
+[2014.07.23-21.06.06:780][954]LogSavePackage: Save=10.158600ms
+[2014.07.23-21.06.06:780][954]LogSavePackage: Moving '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/M_PaintedWood196E56154229307D528BBAADEA1FF600.tmp' to '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Content/DT_Materials/M_PaintedWood.uasset'
+[2014.07.23-21.06.06:789][954]Cmd: MAP LOAD FILE="../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Content/Maps/07_Begin.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.07.23-21.06.06:790][954]LightingResults: New page: Lighting Build
+[2014.07.23-21.06.06:800][954]LoadErrors: New page: Loading map: 07_Begin.umap
+[2014.07.23-21.06.06:800][954]MapCheck: New page: Map Check
+[2014.07.23-21.06.06:800][954]LightingResults: New page: Lighting Build
+[2014.07.23-21.06.06:814][954]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002706F2E0
+[2014.07.23-21.06.06:840][954]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.07.23-21.06.06:840][954]LogAIModule: Creating AISystem for world 07_Begin
+[2014.07.23-21.06.06:850][954]Cmd: MAP CHECKDEP
+[2014.07.23-21.06.06:850][954]MapCheck: New page: 07_Begin - Jul 23, 2014, 11:06:06 AM
+[2014.07.23-21.06.06:932][954]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [81.392ms] ==========
+[2014.07.23-21.06.06:932][954]LogFileHelpers: Loading map '07_Begin' took 0.142
+[2014.07.23-21.06.43:944][951]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (crate_mesh)
+[2014.07.23-21.06.46:111][207]Cmd: DELETE
+[2014.07.23-21.06.46:111][207]Cmd: ACTOR DELETE
+[2014.07.23-21.06.46:112][207]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.07.23-21.06.46:125][207]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2014.07.23-21.07.00:681][952]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/DT_Props'
+[2014.07.23-21.07.03:620][301]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/DT_Textures'
+[2014.07.23-21.07.14:880][357]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/DT_Props'
+[2014.07.23-21.07.18:246][541]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Environment'
+[2014.07.23-21.07.22:114][887]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Environment/Meshes'
+[2014.07.23-21.07.24:284][ 56]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Environment/Meshes/Rocks'
+[2014.07.23-21.07.45:356][819]LogActorFactory: Actor Factory created SM_Cave_Rock_Large_01a
+[2014.07.23-21.07.45:391][820]LogActorFactory: Actor Factory created SM_Cave_Rock_Large_01a
+[2014.07.23-21.07.56:275][ 53]LogSlate: SRTH: 00000000254B96C0, 697 x 557, prev 0000000000000000
+[2014.07.23-21.09.10:835][556]Cmd: TRANSACTION UNDO
+[2014.07.23-21.09.10:835][556]LogEditorTransaction: Undo Move Actors
+[2014.07.23-21.09.11:316][579]Cmd: TRANSACTION UNDO
+[2014.07.23-21.09.11:316][579]LogEditorTransaction: Undo Rotate Actors
+[2014.07.23-21.09.17:685][122]Cmd: MODE GRID=1
+[2014.07.23-21.09.18:570][179]Cmd: MODE ROTGRID=1
+[2014.07.23-21.09.20:103][295]Cmd: MODE SCALEGRID=1
+[2014.07.23-21.09.59:177][776]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.07.23-21.10.07:637][590]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2014.07.23-21.10.12:122][ 46]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.07.23-21.10.12:583][ 96]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Rock_Large_01a_2)
+[2014.07.23-21.10.22:786][212]LogActorFactory: Actor Factory created SM_Cave_Rock_Large_01a_FlatTop
+[2014.07.23-21.10.24:909][455]LogActorFactory: Actor Factory created SM_Cave_Rock_Large_01a_FlatTop
+[2014.07.23-21.10.58:117][884]LogActorFactory: Actor Factory created SM_Cave_Rock_Large_01b
+[2014.07.23-21.11.13:496][539]LogActorFactory: Actor Factory created SM_Cave_Rock_Large_01b
+[2014.07.23-21.11.48:623][400]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Rock_Large_01a_2)
+[2014.07.23-21.12.09:049][662]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Rock_Large_01b_2)
+[2014.07.23-21.12.12:121][  9]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Rock_Large_01a_3)
+[2014.07.23-21.12.22:473][152]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Rock_Large_01a_FlatTop)
+[2014.07.23-21.12.57:176][160]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
+[2014.07.23-21.13.11:549][644]LogActorFactory: Actor Factory created SM_Cave_Rock_Slate_01a
+[2014.07.23-21.13.12:468][744]LogActorFactory: Actor Factory created SM_Cave_Rock_Slate_01a
+[2014.07.23-21.13.33:556][ 92]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Cave_Rock_Slate_01a_4)
+[2014.07.23-21.13.34:278][172]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Cave_Rock_Slate_01a_3)
+[2014.07.23-21.13.34:744][224]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Cave_Rock_Slate_01a_2)
+[2014.07.23-21.13.35:450][304]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Cave_Rock_Slate_01a)
+[2014.07.23-21.13.55:465][567]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Rock_Slate_01a_21)
+[2014.07.23-21.13.57:683][825]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Rock_Slate_01a_25)
+[2014.07.23-21.14.03:578][443]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Rock_Slate_01a_8)
+[2014.07.23-21.14.07:503][895]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Rock_Slate_01a_17)
+[2014.07.23-21.14.09:953][178]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Rock_Slate_01a_9)
+[2014.07.23-21.14.11:398][324]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Rock_Slate_01a_2)
+[2014.07.23-21.14.13:644][560]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Rock_Slate_01a_3)
+[2014.07.23-21.14.23:131][585]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Rock_Slate_01a_4)
+[2014.07.23-21.14.27:187][ 58]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Rock_Slate_01a_12)
+[2014.07.23-21.14.40:625][215]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2014.07.23-21.15.18:680][373]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Rock_Slate_01a_22)
+[2014.07.23-21.15.24:880][852]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Cave_Rock_Slate_01a_23)
+[2014.07.23-21.15.26:215][964]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Cave_Rock_Slate_01a_24)
+[2014.07.23-21.15.34:954][690]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Rock_Slate_01a_27)
+[2014.07.23-21.15.38:298][965]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Rock_Slate_01a_28)
+[2014.07.23-21.15.41:630][241]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Cave_Rock_Slate_01a_26)
+[2014.07.23-21.15.42:275][293]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Cave_Rock_Slate_01a_27)
+[2014.07.23-21.15.50:649][942]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Rock_Slate_01a_30)
+[2014.07.23-21.15.54:324][236]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Rock_Slate_01a_29)
+[2014.07.23-21.16.02:781][762]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Rock_Slate_01a_31)
+[2014.07.23-21.16.03:666][811]LogSavePackage: Save=47.201450ms
+[2014.07.23-21.16.03:666][811]LogSavePackage: Moving '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/07_Begin_Auto6C9AF9E81417234A144236BAF6D83FD44.tmp' to '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/Autosaves/Game/Maps/07_Begin_Auto6.umap'
+[2014.07.23-21.16.03:679][811]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/07_Begin' took 0.101
+[2014.07.23-21.16.03:679][811]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.101
+[2014.07.23-21.16.08:655][170]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.23-21.16.08:656][170]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.23-21.16.12:780][491]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Cave_Rock_Slate_01a_26)
+[2014.07.23-21.16.13:438][543]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Cave_Rock_Slate_01a_27)
+[2014.07.23-21.16.14:446][627]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Cave_Rock_Slate_01a_28)
+[2014.07.23-21.16.15:056][678]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Cave_Rock_Slate_01a_30)
+[2014.07.23-21.16.16:217][774]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Cave_Rock_Slate_01a_29)
+[2014.07.23-21.16.24:047][395]Cmd: MODE GRID=0
+[2014.07.23-21.16.32:544][ 86]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Rock_Slate_01a_29)
+[2014.07.23-21.16.47:706][340]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Cave_Rock_Slate_01a_27)
+[2014.07.23-21.16.48:557][422]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Rock_Slate_01a_18)
+[2014.07.23-21.19.57:492][151]LogSavePackage: Save=26.668375ms
+[2014.07.23-21.19.57:492][151]LogSavePackage: Moving '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/08_Begin47AC2B3949A8D899686D8388C8371CEE.tmp' to '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Content/Maps/08_Begin.umap'
+[2014.07.23-21.19.57:513][151]LogFileHelpers: Saving map '08_Begin' took 2.722
+[2014.07.23-21.20.25:639][641]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.07.23-21.20.26:647][706]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/DT_Props'
+[2014.07.23-21.20.49:708][ 59]LogActorFactory: Actor Factory created crate_mesh
+[2014.07.23-21.20.51:401][195]LogActorFactory: Actor Factory created crate_mesh
+[2014.07.23-21.22.01:264][795]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (crate_mesh)
+[2014.07.23-21.22.16:004][968]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (crate_mesh_3)
+[2014.07.23-21.22.21:156][382]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (crate_mesh)
+[2014.07.23-21.22.25:022][694]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (crate_mesh_4)
+[2014.07.23-21.22.29:298][ 41]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (crate_mesh_3)
+[2014.07.23-21.23.06:709][201]Cmd: MODE ROTGRID=0
+[2014.07.23-21.24.07:085][531]LogActorFactory: Actor Factory created pickaxe_mesh
+[2014.07.23-21.24.11:148][882]LogActorFactory: Actor Factory created pickaxe_mesh
+[2014.07.23-21.24.13:622][ 92]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.07.23-21.24.13:622][ 92]Aligned camera to fit all selected actors.
+[2014.07.23-21.24.17:334][428]Cmd: TRANSACTION UNDO
+[2014.07.23-21.24.17:334][428]LogEditorTransaction: Undo Move Actors
+[2014.07.23-21.24.44:139][730]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (crate_mesh_4)
+[2014.07.23-21.24.47:860][ 45]Cmd: TRANSACTION UNDO
+[2014.07.23-21.24.47:860][ 45]LogEditorTransaction: Undo Move Actors
+[2014.07.23-21.24.57:334][778]Cmd: TRANSACTION UNDO
+[2014.07.23-21.24.57:334][778]LogEditorTransaction: Undo Snap Actors To Floor
+[2014.07.23-21.25.00:550][985]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pickaxe_mesh)
+[2014.07.23-21.26.10:304][157]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Rock_Large_01a_2)
+[2014.07.23-21.26.11:328][246]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pickaxe_mesh)
+[2014.07.23-21.26.29:467][878]LogActorFactory: Actor Factory created cloth_mesh
+[2014.07.23-21.26.35:990][426]LogActorFactory: Actor Factory created cloth_mesh
+[2014.07.23-21.27.04:863][853]Cmd: MODE SCALEGRID=0
+[2014.07.23-21.27.28:551][948]LogActorFactory: Actor Factory created table_mesh
+[2014.07.23-21.27.30:889][138]LogActorFactory: Actor Factory created table_mesh
+[2014.07.23-21.27.52:776][960]LogActorFactory: Actor Factory created book_mesh
+[2014.07.23-21.27.54:212][ 82]LogActorFactory: Actor Factory created book_mesh
+[2014.07.23-21.28.57:550][536]LogActorFactory: Actor Factory created coin_mesh
+[2014.07.23-21.28.58:424][610]LogActorFactory: Actor Factory created coin_mesh
+[2014.07.23-21.28.59:484][670]LogActorFactory: Actor Factory created coin_mesh
+[2014.07.23-21.29.00:526][761]LogActorFactory: Actor Factory created coin_mesh
+[2014.07.23-21.29.01:584][820]LogActorFactory: Actor Factory created coin_mesh
+[2014.07.23-21.29.02:442][894]LogActorFactory: Actor Factory created coin_mesh
+[2014.07.23-21.29.03:927][997]LogActorFactory: Actor Factory created coin_mesh
+[2014.07.23-21.29.05:370][123]LogActorFactory: Actor Factory created coin_mesh
+[2014.07.23-21.29.05:985][171]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (book_mesh_3)
+[2014.07.23-21.29.17:355][242]LogActorFactory: Actor Factory created bench_mesh
+[2014.07.23-21.29.18:264][315]LogActorFactory: Actor Factory created bench_mesh
+[2014.07.23-21.29.34:806][756]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Rock_Slate_01a_19)
+[2014.07.23-21.29.35:854][845]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bench_mesh)
+[2014.07.23-21.29.51:649][780]LogSavePackage: Save=47.325935ms
+[2014.07.23-21.29.51:649][780]LogSavePackage: Moving '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/08_Begin_Auto71A9CBD874903173C094219AFE8EE0060.tmp' to '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/Autosaves/Game/Maps/08_Begin_Auto7.umap'
+[2014.07.23-21.29.51:661][780]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/08_Begin' took 0.101
+[2014.07.23-21.29.51:661][780]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.101
+[2014.07.23-21.29.52:146][805]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/DT_Materials'
+[2014.07.23-21.29.56:878][969]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.07.23-21.29.56:929][969]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2014.07.23-21.29.56:975][969]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2014.07.23-21.29.56:975][969]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_3) Already registered. Aborting.
+[2014.07.23-21.29.56:975][969]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2014.07.23-21.29.56:975][969]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_3) Already registered. Aborting.
+[2014.07.23-21.29.57:015][969]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_23, compiling.
+[2014.07.23-21.29.57:017][969]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_24, compiling.
+[2014.07.23-21.29.57:020][969]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 78 instructions
+[2014.07.23-21.29.57:020][969]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.07.23-21.29.57:020][969]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.07.23-21.29.57:157][969]LogSlate: SRTH: 000000001D862B00, 197 x 242
+[2014.07.23-21.30.04:199][423]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.07.23-21.30.04:205][423]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.07.23-21.30.05:428][470]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 82 instructions
+[2014.07.23-21.30.05:428][470]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.07.23-21.30.05:428][470]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.07.23-21.30.06:354][518]LogMaterialEditor: Applying material M_Cloth
+[2014.07.23-21.30.07:647][518]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.07.23-21.30.07:714][518]LogMaterial: Missing cached shader map for material M_Cloth, compiling.
+[2014.07.23-21.30.07:742][518]LogMaterial: Missing cached shader map for material M_Cloth, compiling.
+[2014.07.23-21.30.07:750][518]LogMaterial: 0.001991 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.07.23-21.30.08:098][530]LogMaterialEditor: Saving and Compiling material M_Cloth
+[2014.07.23-21.30.08:490][530]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.07.23-21.30.08:583][530]LogMaterial: Missing cached shader map for material M_Cloth, compiling.
+[2014.07.23-21.30.08:625][530]LogMaterial: Missing cached shader map for material M_Cloth, compiling.
+[2014.07.23-21.30.08:635][530]LogMaterial: 0.002905 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.07.23-21.30.12:198][530]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DT_Materials/M_Cloth" FILE="../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Content/DT_Materials/M_Cloth.uasset" SILENT=true
+[2014.07.23-21.30.12:362][530]LogSavePackage: Save=155.330826ms
+[2014.07.23-21.30.12:362][530]LogSavePackage: Moving '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/M_Cloth85DCA115477DE08D623A04A6713B0972.tmp' to '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Content/DT_Materials/M_Cloth.uasset'
+[2014.07.23-21.30.12:371][530]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 82 instructions
+[2014.07.23-21.30.12:371][530]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.07.23-21.30.12:371][530]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.07.23-21.30.32:414][160]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/DT_Props'
+[2014.07.23-21.31.08:793][ 61]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.23-21.31.08:794][ 61]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.23-21.37.13:109][402]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000270D11C0
+[2014.07.23-21.37.13:140][402]LogSavePackage: Save=28.915789ms
+[2014.07.23-21.37.13:140][402]LogSavePackage: Moving '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/08_End25CFC5FE4C6FE443F47A6EA74D2D2789.tmp' to '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Content/Maps/08_End.umap'
+[2014.07.23-21.37.13:196][402]LogFileHelpers: Saving map '08_End' took 3.896
+[2014.07.23-21.46.08:987][286]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.23-21.46.09:060][286]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.23-22.01.08:942][823]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.23-22.01.08:944][823]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.23-22.09.13:986][331]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/DT_Materials'
+[2014.07.23-22.09.19:170][483]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2014.07.23-22.09.19:196][483]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2014.07.23-22.09.19:196][483]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_4) Already registered. Aborting.
+[2014.07.23-22.09.19:214][483]LogSlate: SRTH: 000000001B651180, 783 x 500
+[2014.07.23-22.09.30:248][848]LogSavePackage: Save=136.849319ms
+[2014.07.23-22.09.30:248][848]LogSavePackage: Moving '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/M_PaintedWood_Inst4917361B4DEEFED4C502148439974D6D.tmp' to '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Content/DT_Materials/M_PaintedWood_Inst.uasset'
+[2014.07.23-22.09.33:838][996]LogSlate: SRTH: 00000000253DCDC0, 914 x 557, prev 0000000000000000
+[2014.07.23-22.09.45:482][532]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/DT_Materials'
+[2014.07.23-22.09.48:774][632]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_5) Not registered. Aborting.
+[2014.07.23-22.09.48:785][632]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_5) Not registered. Aborting.
+[2014.07.23-22.09.48:785][632]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_5) Already registered. Aborting.
+[2014.07.23-22.09.48:797][632]LogSlate: SRTH: 000000001BBDF4C0, 914 x 557
+[2014.07.23-22.10.00:881][121]LogSavePackage: Save=124.139992ms
+[2014.07.23-22.10.00:881][121]LogSavePackage: Moving '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/M_PaintedWood_Inst249262939489BF4539F7727A0B6EDD034.tmp' to '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Content/DT_Materials/M_PaintedWood_Inst2.uasset'
+[2014.07.23-22.10.04:432][266]LogSavePackage: Save=9.018194ms
+[2014.07.23-22.10.04:432][266]LogSavePackage: Moving '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/M_PaintedWood_Inst2EB302EE04D889A5C1411C5AB4CDB4CB0.tmp' to '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Content/DT_Materials/M_PaintedWood_Inst2.uasset'
+[2014.07.23-22.10.22:604][ 16]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/DT_Materials'
+[2014.07.23-22.10.24:680][ 85]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_6) Not registered. Aborting.
+[2014.07.23-22.10.24:692][ 85]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_6) Not registered. Aborting.
+[2014.07.23-22.10.24:692][ 85]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_6) Already registered. Aborting.
+[2014.07.23-22.10.24:705][ 85]LogSlate: SRTH: 0000000016BD2B00, 914 x 557
+[2014.07.23-22.10.39:126][630]LogSavePackage: Save=120.336510ms
+[2014.07.23-22.10.39:126][630]LogSavePackage: Moving '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/M_PaintedWood_Inst36F0B748C442A11FAB9C7B4A9AEC31965.tmp' to '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Content/DT_Materials/M_PaintedWood_Inst3.uasset'
+[2014.07.23-22.12.01:796][917]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Rock_Slate_01a_32)
+[2014.07.23-22.12.16:703][597]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Rock_Slate_01a_28)
+[2014.07.23-22.12.17:231][620]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Rock_Slate_01a_31)
+[2014.07.23-22.12.54:411][968]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/DT_Props'
+[2014.07.23-22.12.55:656][  6]LogActorFactory: Actor Factory created Shovel_mesh
+[2014.07.23-22.12.57:319][ 81]LogActorFactory: Actor Factory created Shovel_mesh
+[2014.07.23-22.13.56:790][787]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Environment'
+[2014.07.23-22.14.00:004][931]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/DT_Textures'
+[2014.07.23-22.14.01:442][995]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Environment'
+[2014.07.23-22.14.04:466][128]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Environment/Meshes'
+[2014.07.23-22.14.05:597][183]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Environment/Meshes/Rocks'
+[2014.07.23-22.14.09:700][295]LogActorFactory: Actor Factory created SM_Cave_Rock_Small_01a
+[2014.07.23-22.14.10:038][309]LogActorFactory: Actor Factory created SM_Cave_Rock_Small_01a
+[2014.07.23-22.14.25:449][989]Cmd: DELETE
+[2014.07.23-22.14.25:449][989]Cmd: ACTOR DELETE
+[2014.07.23-22.14.25:450][989]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.07.23-22.14.25:472][989]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2014.07.23-22.14.31:791][189]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Environment/Materials'
+[2014.07.23-22.14.32:437][220]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Environment'
+[2014.07.23-22.14.33:048][250]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/DT_Textures'
+[2014.07.23-22.14.33:415][270]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/DT_Props'
+[2014.07.23-22.15.00:246][ 24]LogActorFactory: Actor Factory created post_mesh
+[2014.07.23-22.15.01:082][ 59]LogActorFactory: Actor Factory created post_mesh
+[2014.07.23-22.15.45:840][ 75]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Rock_Large_01b)
+[2014.07.23-22.15.46:509][104]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (post_mesh_2)
+[2014.07.23-22.15.50:008][261]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (post_mesh)
+[2014.07.23-22.16.08:830][121]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.23-22.16.08:831][121]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.23-22.17.22:688][439]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Rock_Slate_01a_30)
+[2014.07.23-22.17.25:977][584]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (post_mesh_4)
+[2014.07.23-22.17.54:794][149]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (crate_mesh_5)
+[2014.07.23-22.18.27:084][523]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Rock_Large_01a_FlatTop_2)
+[2014.07.23-22.18.48:490][445]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2014.07.23-22.19.01:138][986]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.07.23-22.19.10:436][396]Cmd: TRANSACTION UNDO
+[2014.07.23-22.19.10:436][396]LogEditorTransaction: Undo Rotate Actors
+[2014.07.23-22.19.10:436][396]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/08_End.08_End:PersistentLevel.BP_Sky_Shere_74.TRASH_SceneComponent_10) Trying to register component with IsPendingKill() == true. Aborting.
+[2014.07.23-22.19.12:559][476]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2014.07.23-22.19.25:171][ 51]MapCheck: New page: Map Check
+[2014.07.23-22.19.25:198][ 51]LightingResults: New page: Lighting Build - Jul 23, 2014, 12:19:25 PM
+[2014.07.23-22.19.32:451][ 51]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.07.23-22.19.32:482][ 51]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.07.23-22.19.32:482][ 51]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.07.23-22.19.32:482][ 51]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.07.23-22.19.32:482][ 51]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.07.23-22.19.32:482][ 51]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.07.23-22.19.32:632][ 51]LogEditorBuildUtils: Build time 0:00:07
+[2014.07.23-22.19.32:754][ 52]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_PaintedWood, compiling.
+[2014.07.23-22.19.32:792][ 52]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_PaintedWood, compiling.
+[2014.07.23-22.19.32:794][ 52]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_PaintedWood, compiling.
+[2014.07.23-22.19.32:816][ 53]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer M_PaintedWood_Inst2, compiling.
+[2014.07.23-22.19.32:818][ 53]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer M_PaintedWood_Inst2, compiling.
+[2014.07.23-22.19.32:819][ 53]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer M_PaintedWood_Inst2, compiling.
+[2014.07.23-22.19.32:821][ 53]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer M_PaintedWood_Inst, compiling.
+[2014.07.23-22.19.32:823][ 53]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer M_PaintedWood_Inst, compiling.
+[2014.07.23-22.19.32:824][ 53]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer M_PaintedWood_Inst, compiling.
+[2014.07.23-22.19.32:870][ 54]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer M_PaintedWood_Inst3, compiling.
+[2014.07.23-22.19.32:872][ 54]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer M_PaintedWood_Inst3, compiling.
+[2014.07.23-22.19.32:873][ 54]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer M_PaintedWood_Inst3, compiling.
+[2014.07.23-22.19.32:875][ 54]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Pickaxe, compiling.
+[2014.07.23-22.19.32:877][ 54]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Pickaxe, compiling.
+[2014.07.23-22.19.32:878][ 54]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Pickaxe, compiling.
+[2014.07.23-22.19.32:936][ 55]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Book, compiling.
+[2014.07.23-22.19.32:952][ 55]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Book, compiling.
+[2014.07.23-22.19.32:957][ 55]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Book, compiling.
+[2014.07.23-22.19.33:099][ 56]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Coin, compiling.
+[2014.07.23-22.19.33:103][ 56]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Coin, compiling.
+[2014.07.23-22.19.33:106][ 56]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Coin, compiling.
+[2014.07.23-22.19.33:208][ 57]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Cloth, compiling.
+[2014.07.23-22.19.33:211][ 57]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Cloth, compiling.
+[2014.07.23-22.19.33:236][ 57]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Cloth, compiling.
+[2014.07.23-22.19.33:244][ 57]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Cloth, compiling.
+[2014.07.23-22.19.36:490][ 59]LogSavePackage: Save=67.249641ms
+[2014.07.23-22.19.36:490][ 59]LogSavePackage: Moving '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/08_End_Auto8E1796096452EE42A51FF32A87B58025D.tmp' to '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/Autosaves/Game/Maps/08_End_Auto8.umap'
+[2014.07.23-22.19.36:508][ 59]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/08_End' took 0.170
+[2014.07.23-22.19.36:508][ 59]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.170
+[2014.07.23-22.19.36:521][ 59]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/DT_Materials/M_PaintedWood_Inst] ([1] browsable assets)...
+[2014.07.23-22.19.36:526][ 59]OBJ SavePackage: Finished generating thumbnails for package [/Game/DT_Materials/M_PaintedWood_Inst]
+[2014.07.23-22.19.36:579][ 59]LogSavePackage: Save=19.032877ms
+[2014.07.23-22.19.36:579][ 59]LogSavePackage: Moving '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/M_PaintedWood_Inst_Auto890CFF9364DFDF32838D5A18E32610AED.tmp' to '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/Autosaves/Game/DT_Materials/M_PaintedWood_Inst_Auto8.uasset'
+[2014.07.23-22.19.36:624][ 59]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/DT_Materials/M_PaintedWood_Inst2] ([1] browsable assets)...
+[2014.07.23-22.19.36:628][ 59]OBJ SavePackage: Finished generating thumbnails for package [/Game/DT_Materials/M_PaintedWood_Inst2]
+[2014.07.23-22.19.36:681][ 59]LogSavePackage: Save=19.341661ms
+[2014.07.23-22.19.36:681][ 59]LogSavePackage: Moving '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/M_PaintedWood_Inst2_Auto8E3AD830A47FC607D1F6AC6AC60E97493.tmp' to '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/Autosaves/Game/DT_Materials/M_PaintedWood_Inst2_Auto8.uasset'
+[2014.07.23-22.19.36:734][ 59]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/DT_Materials/M_PaintedWood_Inst3] ([1] browsable assets)...
+[2014.07.23-22.19.36:746][ 59]OBJ SavePackage: Finished generating thumbnails for package [/Game/DT_Materials/M_PaintedWood_Inst3]
+[2014.07.23-22.19.36:848][ 59]LogSavePackage: Save=32.317272ms
+[2014.07.23-22.19.36:848][ 59]LogSavePackage: Moving '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/M_PaintedWood_Inst3_Auto8100175E64DACED1FD5C8BD89B53E4A30.tmp' to '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/Autosaves/Game/DT_Materials/M_PaintedWood_Inst3_Auto8.uasset'
+[2014.07.23-22.19.36:880][ 59]LogFileHelpers: Auto-saving content packages took 0.372
+[2014.07.23-22.19.43:313][229]LightingResults:Error: Error bench_mesh Object has overlapping UVs.
+[2014.07.23-22.19.43:313][229]LightingResults: Info bench_mesh Lightmap UV are overlapping by 58.2%. Please adjust content - Enable Error Coloring to visualize.
+[2014.07.23-22.19.45:234][274]Job is a success!
+[2014.07.23-22.19.45:348][275]LogMaterial:Warning: Material /Game/DT_Materials/M_PaintedWood.M_PaintedWood needed to have new flag set bUsedWithStaticLighting !
+[2014.07.23-22.19.45:361][275]LogMaterial: Missing cached shader map for material M_PaintedWood, compiling.
+[2014.07.23-22.19.45:379][275]LogMaterial: 0.000117 seconds spent updating 1 materials, 1 interfaces, 3 instances, 0 with static permutations.
+[2014.07.23-22.19.45:380][275]LogMaterial:Warning: Material /Game/DT_Materials/M_Pickaxe.M_Pickaxe needed to have new flag set bUsedWithStaticLighting !
+[2014.07.23-22.19.45:400][275]LogMaterial: Missing cached shader map for material M_Pickaxe, compiling.
+[2014.07.23-22.19.45:411][275]LogMaterial: 0.000152 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.07.23-22.19.45:412][275]LogMaterial:Warning: Material /Game/DT_Materials/M_Book.M_Book needed to have new flag set bUsedWithStaticLighting !
+[2014.07.23-22.19.45:415][275]LogMaterial: Missing cached shader map for material M_Book, compiling.
+[2014.07.23-22.19.45:424][275]LogMaterial: 0.000122 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.07.23-22.19.45:425][275]LogMaterial:Warning: Material /Game/DT_Materials/M_Cloth.M_Cloth needed to have new flag set bUsedWithStaticLighting !
+[2014.07.23-22.19.45:430][275]LogMaterial: Missing cached shader map for material M_Cloth, compiling.
+[2014.07.23-22.19.45:453][275]LogMaterial: 0.000181 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.07.23-22.19.45:602][275]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.07.23-22.19.45:936][275]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2014.07.23-22.19.45:978][275]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2014.07.23-22.19.46:000][275]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.07.23-22.19.46:281][275]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2014.07.23-22.19.46:706][275]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2014.07.23-22.19.46:866][275]Lightmass on RECORDING_07: 7.76 sec total, 789 ms importing, 387 ms setup, 517 ms photons, 6.01 sec processing, 0 ms extra exporting [64/64 mappings]. Threads: 53.7 sec total, 33.5 sec processing.
+[2014.07.23-22.19.46:908][275]LogStaticLightingSystem:Warning: Illumination: 21.6 sec (1.25 sec encoding lightmaps)
+[2014.07.23-22.19.46:908][275]LogStaticLightingSystem: Lightmap texture memory:  0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 4 textures
+[2014.07.23-22.19.46:908][275]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.07.23-22.19.47:455][276]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.07.23-22.19.47:456][276]MapCheck: New page: 08_End - Jul 23, 2014, 12:19:47 PM
+[2014.07.23-22.19.47:626][276]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [170.264ms] ==========
+[2014.07.23-22.22.52:970][ 86]LogSavePackage: Save=80.755981ms
+[2014.07.23-22.22.52:970][ 86]LogSavePackage: Moving '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/08_End9E5776E04DFF1B7725460ABABD4FD654.tmp' to '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Content/Maps/08_End.umap'
+[2014.07.23-22.22.58:362][344]LogSavePackage: Save=10.065388ms
+[2014.07.23-22.22.58:362][344]LogSavePackage: Moving '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/M_PaintedWood_Inst74BB5EE0488400287C24A5A9BB9A4AE0.tmp' to '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Content/DT_Materials/M_PaintedWood_Inst.uasset'
+[2014.07.23-22.23.00:585][446]LogSavePackage: Save=9.329408ms
+[2014.07.23-22.23.00:585][446]LogSavePackage: Moving '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/M_PaintedWood_Inst20DEE00154754E86B5921889895844C51.tmp' to '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Content/DT_Materials/M_PaintedWood_Inst2.uasset'
+[2014.07.23-22.23.02:232][521]LogSavePackage: Save=9.630297ms
+[2014.07.23-22.23.02:232][521]LogSavePackage: Moving '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/M_PaintedWood_Inst3E8906F194D8AD779FF46ECBA1494D91F.tmp' to '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Content/DT_Materials/M_PaintedWood_Inst3.uasset'
+[2014.07.23-22.31.08:862][297]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.23-22.31.08:863][297]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.23-22.32.52:932][357]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000362AE3E0
+[2014.07.23-22.32.52:932][357]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000247B3F60
+[2014.07.23-22.32.52:933][357]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002EC68AE0
+[2014.07.23-22.32.52:933][357]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/08_End' took 0.016
+[2014.07.23-22.32.52:944][357]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/DT_Materials/M_PaintedWood] ([1] browsable assets)...
+[2014.07.23-22.32.52:949][357]OBJ SavePackage: Finished generating thumbnails for package [/Game/DT_Materials/M_PaintedWood]
+[2014.07.23-22.32.52:992][357]LogSavePackage: Save=17.870611ms
+[2014.07.23-22.32.52:992][357]LogSavePackage: Moving '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/M_PaintedWood_Auto9C7B336384B61F5D2E70597B5C415EB25.tmp' to '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/Autosaves/Game/DT_Materials/M_PaintedWood_Auto9.uasset'
+[2014.07.23-22.32.53:009][357]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/DT_Materials/M_Pickaxe] ([1] browsable assets)...
+[2014.07.23-22.32.53:040][357]OBJ SavePackage:     Rendered thumbnail for [Material /Game/DT_Materials/M_Pickaxe.M_Pickaxe]
+[2014.07.23-22.32.53:040][357]OBJ SavePackage: Finished generating thumbnails for package [/Game/DT_Materials/M_Pickaxe]
+[2014.07.23-22.32.53:208][357]LogSavePackage: Save=148.110977ms
+[2014.07.23-22.32.53:208][357]LogSavePackage: Moving '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/M_Pickaxe_Auto912043F284CFA30608310D6A93A5FCB4E.tmp' to '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/Autosaves/Game/DT_Materials/M_Pickaxe_Auto9.uasset'
+[2014.07.23-22.32.53:226][357]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/DT_Materials/M_Book] ([1] browsable assets)...
+[2014.07.23-22.32.53:249][357]OBJ SavePackage:     Rendered thumbnail for [Material /Game/DT_Materials/M_Book.M_Book]
+[2014.07.23-22.32.53:249][357]OBJ SavePackage: Finished generating thumbnails for package [/Game/DT_Materials/M_Book]
+[2014.07.23-22.32.53:595][357]LogSavePackage: Save=305.053436ms
+[2014.07.23-22.32.53:595][357]LogSavePackage: Moving '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/M_Book_Auto965F716674FF66572319263942BDDDEFA.tmp' to '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/Autosaves/Game/DT_Materials/M_Book_Auto9.uasset'
+[2014.07.23-22.32.53:614][357]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/DT_Materials/M_Cloth] ([1] browsable assets)...
+[2014.07.23-22.32.53:615][357]OBJ SavePackage: Finished generating thumbnails for package [/Game/DT_Materials/M_Cloth]
+[2014.07.23-22.32.53:653][357]LogSavePackage: Save=18.636953ms
+[2014.07.23-22.32.53:653][357]LogSavePackage: Moving '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/M_Cloth_Auto9304AAA3345D64FE8EC6EC1B0564104C4.tmp' to '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/Autosaves/Game/DT_Materials/M_Cloth_Auto9.uasset'
+[2014.07.23-22.32.53:661][357]LogFileHelpers: Auto-saving content packages took 0.728
+[2014.07.23-22.46.08:768][179]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.23-22.46.08:770][179]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.23-23.01.08:849][ 64]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.23-23.01.08:850][ 64]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.23-23.16.08:799][930]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.23-23.16.08:801][930]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.23-23.31.08:951][870]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.23-23.31.08:952][870]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.23-23.46.08:956][785]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.23-23.46.08:957][785]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-00.01.09:068][717]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-00.01.09:070][717]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-00.16.08:985][516]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-00.16.08:986][516]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-00.31.09:029][301]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-00.31.09:030][301]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-00.46.08:939][ 35]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-00.46.08:941][ 35]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-01.01.08:964][743]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-01.01.08:965][743]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-01.16.09:006][481]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-01.16.09:008][481]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-01.31.09:208][214]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-01.31.09:209][214]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-01.46.09:162][917]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-01.46.09:163][917]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-02.01.09:256][615]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-02.01.09:257][615]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-02.16.09:171][325]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-02.16.09:172][325]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-02.31.09:195][ 29]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-02.31.09:197][ 29]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-02.46.09:132][754]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-02.46.09:134][754]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-03.01.09:147][641]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-03.01.09:148][641]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-03.16.09:195][546]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-03.16.09:196][546]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-03.31.09:348][477]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-03.31.09:349][477]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-03.46.09:350][416]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-03.46.09:351][416]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-04.01.09:492][357]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-04.01.09:493][357]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-04.16.09:388][286]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-04.16.09:389][286]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-04.31.09:378][204]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-04.31.09:379][204]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-04.46.09:284][ 69]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-04.46.09:286][ 69]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-05.01.09:397][939]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-05.01.09:398][939]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-05.16.09:357][704]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-05.16.09:358][704]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-05.31.09:518][513]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-05.31.09:519][513]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-05.46.09:505][292]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-05.46.09:506][292]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-06.01.09:632][ 75]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-06.01.09:633][ 75]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-06.16.09:574][858]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-06.16.09:576][858]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-06.31.09:544][652]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-06.31.09:546][652]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-06.46.09:479][461]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-06.46.09:481][461]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-07.01.09:486][240]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-07.01.09:488][240]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-07.16.09:551][ 14]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-07.16.09:552][ 14]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-07.31.09:671][831]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-07.31.09:673][831]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-07.46.09:711][600]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-07.46.09:713][600]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-08.01.09:787][471]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-08.01.09:788][471]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-08.16.09:762][338]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-08.16.09:763][338]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-08.46.09:742][102]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-08.46.09:744][102]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-09.01.09:611][ 57]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-09.01.09:612][ 57]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-09.16.09:779][938]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-09.16.09:780][938]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-09.31.09:806][804]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-09.31.09:807][804]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-09.46.09:886][754]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-09.46.09:888][754]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-10.01.09:933][528]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-10.01.09:935][528]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-10.16.09:898][320]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-10.16.09:900][320]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-10.31.09:855][ 97]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-10.31.09:856][ 97]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-10.46.09:890][854]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-10.46.09:892][854]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-11.01.09:793][626]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-11.01.09:794][626]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-11.16.09:976][439]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-11.16.09:977][439]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-11.31.09:988][282]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-11.31.09:989][282]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-11.46.10:097][ 62]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-11.46.10:098][ 62]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-12.01.10:122][854]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-12.01.10:124][854]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-12.16.10:116][621]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-12.16.10:118][621]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-12.31.10:059][390]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-12.31.10:060][390]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-12.46.10:020][225]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-12.46.10:021][225]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-13.01.10:099][124]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-13.01.10:100][124]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-13.16.10:107][960]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-13.16.10:109][960]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-13.31.10:258][851]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-13.31.10:259][851]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-13.46.10:246][674]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-13.46.10:248][674]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.24-13.54.54:957][886]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DT_Materials/M_Book" FILE="../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Content/DT_Materials/M_Book.uasset" SILENT=true
+[2014.07.24-13.54.54:979][886]LogSavePackage: Save=9.791217ms
+[2014.07.24-13.54.54:979][886]LogSavePackage: Moving '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/M_BookCA94207A408DA6B06C31478B2270D7E5.tmp' to '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Content/DT_Materials/M_Book.uasset'
+[2014.07.24-13.54.54:989][886]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DT_Materials/M_Cloth" FILE="../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Content/DT_Materials/M_Cloth.uasset" SILENT=true
+[2014.07.24-13.54.55:009][886]LogSavePackage: Save=10.277317ms
+[2014.07.24-13.54.55:009][886]LogSavePackage: Moving '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/M_Cloth82691EDA49B1154C69C550B9FEF5C71E.tmp' to '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Content/DT_Materials/M_Cloth.uasset'
+[2014.07.24-13.54.55:038][886]LogSavePackage: Save=10.044742ms
+[2014.07.24-13.54.55:038][886]LogSavePackage: Moving '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/M_PaintedWood0234EFBF4F4E99EC22E7A4928E1438E1.tmp' to '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Content/DT_Materials/M_PaintedWood.uasset'
+[2014.07.24-13.54.55:046][886]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DT_Materials/M_Pickaxe" FILE="../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Content/DT_Materials/M_Pickaxe.uasset" SILENT=true
+[2014.07.24-13.54.55:066][886]LogSavePackage: Save=10.301606ms
+[2014.07.24-13.54.55:066][886]LogSavePackage: Moving '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Saved/M_Pickaxe3937E593419DDCCE3AC9CFA81D60091D.tmp' to '../../../../../../---_Quick Start to Unreal Engine 4_Volume 1/project_files/UE4_Files/Content/DT_Materials/M_Pickaxe.uasset'
+[2014.07.24-13.54.55:322][887]Cmd: QUIT_EDITOR
+[2014.07.24-13.54.55:423][887]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.07.24-13.54.55:424][887]LogExit: Preparing to exit.
+[2014.07.24-13.54.56:336][887]LogExit: Editor shut down
+[2014.07.24-13.54.56:336][887]LogExit: Transaction tracking system shut down
+[2014.07.24-13.54.56:337][887]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015D927A0
+[2014.07.24-13.54.56:377][887]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000003E834C0
+[2014.07.24-13.54.56:377][887]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000ACFF100
+[2014.07.24-13.54.56:377][887]LogExit: Object subsystem successfully closed.
+[2014.07.24-13.54.56:441][887]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (174)
+[2014.07.24-13.54.56:441][887]LogModuleManager: Shutting down and abandoning module MaterialEditor (173)
+[2014.07.24-13.54.56:441][887]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2014.07.24-13.54.56:441][887]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (171)
+[2014.07.24-13.54.56:441][887]LogModuleManager: Shutting down and abandoning module CrashTracker (170)
+[2014.07.24-13.54.56:441][887]LogModuleManager: Shutting down and abandoning module HTTP (169)
+[2014.07.24-13.54.56:441][887]LogModuleManager: Shutting down and abandoning module NewsFeed (168)
+[2014.07.24-13.54.56:441][887]LogModuleManager: Shutting down and abandoning module SceneOutliner (167)
+[2014.07.24-13.54.56:441][887]LogModuleManager: Shutting down and abandoning module EditorWidgets (166)
+[2014.07.24-13.54.56:441][887]LogModuleManager: Shutting down and abandoning module CollectionManager (165)
+[2014.07.24-13.54.56:441][887]LogModuleManager: Shutting down and abandoning module StatsViewer (164)
+[2014.07.24-13.54.56:441][887]LogModuleManager: Shutting down and abandoning module FoliageEdit (163)
+[2014.07.24-13.54.56:441][887]LogModuleManager: Shutting down and abandoning module LandscapeEditor (162)
+[2014.07.24-13.54.56:442][887]LogModuleManager: Shutting down and abandoning module MeshPaint (161)
+[2014.07.24-13.54.56:442][887]LogModuleManager: Shutting down and abandoning module ActorPickerMode (160)
+[2014.07.24-13.54.56:442][887]LogModuleManager: Shutting down and abandoning module GeometryMode (159)
+[2014.07.24-13.54.56:442][887]LogModuleManager: Shutting down and abandoning module TextureAlignMode (158)
+[2014.07.24-13.54.56:442][887]LogModuleManager: Shutting down and abandoning module BspMode (157)
+[2014.07.24-13.54.56:442][887]LogModuleManager: Shutting down and abandoning module PlacementMode (156)
+[2014.07.24-13.54.56:442][887]LogModuleManager: Shutting down and abandoning module DesktopPlatform (155)
+[2014.07.24-13.54.56:442][887]LogModuleManager: Shutting down and abandoning module AutomationWorker (154)
+[2014.07.24-13.54.56:442][887]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (153)
+[2014.07.24-13.54.56:442][887]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (152)
+[2014.07.24-13.54.56:442][887]LogModuleManager: Shutting down and abandoning module UndoHistory (151)
+[2014.07.24-13.54.56:442][887]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (150)
+[2014.07.24-13.54.56:442][887]LogModuleManager: Shutting down and abandoning module UserFeedback (149)
+[2014.07.24-13.54.56:442][887]LogModuleManager: Shutting down and abandoning module XmlParser (148)
+[2014.07.24-13.54.56:442][887]LogModuleManager: Shutting down and abandoning module Blutility (147)
+[2014.07.24-13.54.56:442][887]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (146)
+[2014.07.24-13.54.56:442][887]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (145)
+[2014.07.24-13.54.56:442][887]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (144)
+[2014.07.24-13.54.56:442][887]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (143)
+[2014.07.24-13.54.56:442][887]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (142)
+[2014.07.24-13.54.56:442][887]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (141)
+[2014.07.24-13.54.56:442][887]LogModuleManager: Shutting down and abandoning module InputBindingEditor (140)
+[2014.07.24-13.54.56:442][887]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (139)
+[2014.07.24-13.54.56:442][887]LogModuleManager: Shutting down and abandoning module SettingsEditor (138)
+[2014.07.24-13.54.56:442][887]LogModuleManager: Shutting down and abandoning module SessionLauncher (137)
+[2014.07.24-13.54.56:442][887]LogModuleManager: Shutting down and abandoning module SessionFrontend (136)
+[2014.07.24-13.54.56:442][887]LogModuleManager: Shutting down and abandoning module ProfilerClient (135)
+[2014.07.24-13.54.56:442][887]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (134)
+[2014.07.24-13.54.56:442][887]LogModuleManager: Shutting down and abandoning module DeviceManager (133)
+[2014.07.24-13.54.56:442][887]LogModuleManager: Shutting down and abandoning module AutomationController (132)
+[2014.07.24-13.54.56:442][887]LogModuleManager: Shutting down and abandoning module AutomationWindow (131)
+[2014.07.24-13.54.56:442][887]LogModuleManager: Shutting down and abandoning module Layers (130)
+[2014.07.24-13.54.56:442][887]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (129)
+[2014.07.24-13.54.56:442][887]LogModuleManager: Shutting down and abandoning module DetailCustomizations (128)
+[2014.07.24-13.54.56:442][887]LogModuleManager: Shutting down and abandoning module PackagesDialog (127)
+[2014.07.24-13.54.56:442][887]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (126)
+[2014.07.24-13.54.56:443][887]LogModuleManager: Shutting down and abandoning module AssetRegistry (125)
+[2014.07.24-13.54.56:546][887]LogModuleManager: Shutting down and abandoning module Persona (124)
+[2014.07.24-13.54.56:546][887]LogModuleManager: Shutting down and abandoning module GraphEditor (123)
+[2014.07.24-13.54.56:546][887]LogModuleManager: Shutting down and abandoning module ClassViewer (122)
+[2014.07.24-13.54.56:546][887]LogModuleManager: Shutting down and abandoning module Toolbox (121)
+[2014.07.24-13.54.56:546][887]LogModuleManager: Shutting down and abandoning module ModuleUI (120)
+[2014.07.24-13.54.56:546][887]LogModuleManager: Shutting down and abandoning module Sequencer (119)
+[2014.07.24-13.54.56:546][887]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2014.07.24-13.54.56:546][887]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2014.07.24-13.54.56:546][887]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2014.07.24-13.54.56:546][887]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2014.07.24-13.54.56:546][887]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (114)
+[2014.07.24-13.54.56:546][887]LogModuleManager: Shutting down and abandoning module AnalyticsET (113)
+[2014.07.24-13.54.56:546][887]LogModuleManager: Shutting down and abandoning module Analytics (112)
+[2014.07.24-13.54.56:546][887]LogModuleManager: Shutting down and abandoning module GameplayDebugger (111)
+[2014.07.24-13.54.56:546][887]LogModuleManager: Shutting down and abandoning module AIModule (110)
+[2014.07.24-13.54.56:546][887]LogModuleManager: Shutting down and abandoning module ProfilerService (109)
+[2014.07.24-13.54.56:641][887]LogModuleManager: Shutting down and abandoning module TaskGraph (108)
+[2014.07.24-13.54.56:641][887]LogModuleManager: Shutting down and abandoning module ViewportSnapping (107)
+[2014.07.24-13.54.56:641][887]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (106)
+[2014.07.24-13.54.56:641][887]LogModuleManager: Shutting down and abandoning module Matinee (105)
+[2014.07.24-13.54.56:641][887]LogModuleManager: Shutting down and abandoning module Kismet (104)
+[2014.07.24-13.54.56:641][887]LogModuleManager: Shutting down and abandoning module SlateReflector (103)
+[2014.07.24-13.54.56:641][887]LogModuleManager: Shutting down and abandoning module LevelEditor (102)
+[2014.07.24-13.54.56:642][887]LogModuleManager: Shutting down and abandoning module IntroTutorials (101)
+[2014.07.24-13.54.56:642][887]LogModuleManager: Shutting down and abandoning module ContentBrowser (100)
+[2014.07.24-13.54.56:642][887]LogModuleManager: Shutting down and abandoning module PropertyEditor (99)
+[2014.07.24-13.54.56:642][887]LogModuleManager: Shutting down and abandoning module AssetTools (98)
+[2014.07.24-13.54.56:642][887]LogModuleManager: Shutting down and abandoning module MainFrame (97)
+[2014.07.24-13.54.56:642][887]LogModuleManager: Shutting down and abandoning module SourceControl (96)
+[2014.07.24-13.54.56:642][887]LogModuleManager: Shutting down and abandoning module ImageWrapper (95)
+[2014.07.24-13.54.56:642][887]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (94)
+[2014.07.24-13.54.56:642][887]LogModuleManager: Shutting down and abandoning module FunctionalTesting (93)
+[2014.07.24-13.54.56:642][887]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (92)
+[2014.07.24-13.54.56:642][887]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (91)
+[2014.07.24-13.54.56:642][887]LogModuleManager: Shutting down and abandoning module MessageLog (90)
+[2014.07.24-13.54.56:642][887]LogModuleManager: Shutting down and abandoning module Slate (89)
+[2014.07.24-13.54.56:642][887]LogModuleManager: Shutting down and abandoning module EditorStyle (88)
+[2014.07.24-13.54.56:644][887]LogModuleManager: Shutting down and abandoning module SessionServices (87)
+[2014.07.24-13.54.56:644][887]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (86)
+[2014.07.24-13.54.56:644][887]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (85)
+[2014.07.24-13.54.56:644][887]LogModuleManager: Shutting down and abandoning module XAudio2 (84)
+[2014.07.24-13.54.56:644][887]LogModuleManager: Shutting down and abandoning module Networking (82)
+[2014.07.24-13.54.56:644][887]LogModuleManager: Shutting down and abandoning module Core (81)
+[2014.07.24-13.54.56:644][887]LogModuleManager: Shutting down and abandoning module KismetCompiler (80)
+[2014.07.24-13.54.56:644][887]LogModuleManager: Shutting down and abandoning module PhysXFormats (79)
+[2014.07.24-13.54.56:644][887]LogModuleManager: Shutting down and abandoning module MeshUtilities (78)
+[2014.07.24-13.54.56:644][887]LogModuleManager: Shutting down and abandoning module DerivedDataCache (77)
+[2014.07.24-13.54.56:697][887]LogDerivedDataCache: Shutdown
+[2014.07.24-13.54.56:697][887]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (76)
+[2014.07.24-13.54.56:697][887]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (75)
+[2014.07.24-13.54.56:697][887]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (74)
+[2014.07.24-13.54.56:697][887]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (73)
+[2014.07.24-13.54.56:697][887]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (72)
+[2014.07.24-13.54.56:697][887]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (71)
+[2014.07.24-13.54.56:697][887]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (70)
+[2014.07.24-13.54.56:697][887]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (69)
+[2014.07.24-13.54.56:697][887]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (68)
+[2014.07.24-13.54.56:697][887]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (67)
+[2014.07.24-13.54.56:697][887]LogModuleManager: Shutting down and abandoning module Messaging (66)
+[2014.07.24-13.54.56:697][887]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (65)
+[2014.07.24-13.54.56:697][887]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (64)
+[2014.07.24-13.54.56:697][887]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (63)
+[2014.07.24-13.54.56:697][887]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (62)
+[2014.07.24-13.54.56:697][887]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (61)
+[2014.07.24-13.54.56:697][887]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (60)
+[2014.07.24-13.54.56:697][887]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (59)
+[2014.07.24-13.54.56:697][887]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (58)
+[2014.07.24-13.54.56:697][887]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (57)
+[2014.07.24-13.54.56:697][887]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (56)
+[2014.07.24-13.54.56:697][887]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (55)
+[2014.07.24-13.54.56:697][887]LogModuleManager: Shutting down and abandoning module TargetPlatform (54)
+[2014.07.24-13.54.56:697][887]LogModuleManager: Shutting down and abandoning module InputCore (53)
+[2014.07.24-13.54.56:697][887]LogModuleManager: Shutting down and abandoning module Settings (52)
+[2014.07.24-13.54.56:697][887]LogModuleManager: Shutting down and abandoning module TextureCompressor (49)
+[2014.07.24-13.54.56:697][887]LogModuleManager: Shutting down and abandoning module ShaderCore (48)
+[2014.07.24-13.54.56:697][887]LogModuleManager: Shutting down and abandoning module OpenGLDrv (47)
+[2014.07.24-13.54.56:697][887]LogModuleManager: Shutting down and abandoning module D3D11RHI (46)
+[2014.07.24-13.54.56:697][887]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (45)
+[2014.07.24-13.54.56:697][887]LogModuleManager: Shutting down and abandoning module Renderer (44)
+[2014.07.24-13.54.56:697][887]LogModuleManager: Shutting down and abandoning module Engine (43)
+[2014.07.24-13.54.56:697][887]LogModuleManager: Shutting down and abandoning module SlateRemote (42)
+[2014.07.24-13.54.56:697][887]LogModuleManager: Shutting down and abandoning module ScriptPlugin (41)
+[2014.07.24-13.54.56:697][887]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (39)
+[2014.07.24-13.54.56:697][887]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (38)
+[2014.07.24-13.54.56:711][887]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (31)
+[2014.07.24-13.54.56:711][887]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (30)
+[2014.07.24-13.54.56:711][887]LogModuleManager: Shutting down and abandoning module CableComponent (29)
+[2014.07.24-13.54.56:711][887]LogModuleManager: Shutting down and abandoning module OculusRift (25)
+[2014.07.24-13.54.56:711][887]LogModuleManager: Shutting down and abandoning module UdpMessaging (24)
+[2014.07.24-13.54.56:811][887]LogModuleManager: Shutting down and abandoning module MessagingDebugger (23)
+[2014.07.24-13.54.56:811][887]LogModuleManager: Shutting down and abandoning module SmartSnapping (21)
+[2014.07.24-13.54.56:811][887]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (20)
+[2014.07.24-13.54.56:811][887]LogModuleManager: Shutting down and abandoning module Paper2DEditor (19)
+[2014.07.24-13.54.56:811][887]LogModuleManager: Shutting down and abandoning module Paper2D (18)
+[2014.07.24-13.54.56:811][887]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (14)
+[2014.07.24-13.54.56:811][887]LogModuleManager: Shutting down and abandoning module PluginsEditor (13)
+[2014.07.24-13.54.56:811][887]LogModuleManager: Shutting down and abandoning module EpicSurvey (12)
+[2014.07.24-13.54.56:811][887]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (10)
+[2014.07.24-13.54.56:811][887]LogModuleManager: Shutting down and abandoning module UObjectPlugin (9)
+[2014.07.24-13.54.56:811][887]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (8)
+[2014.07.24-13.54.56:811][887]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (7)
+[2014.07.24-13.54.56:811][887]LogModuleManager: Shutting down and abandoning module BlankPlugin (6)
+[2014.07.24-13.54.56:811][887]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.07.24-13.54.56:811][887]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.07.24-13.54.56:811][887]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.07.24-13.54.56:811][887]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.07.24-13.54.56:811][887]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.07.24-13.54.56:812][887]LogExit: Exiting.
+[2014.07.24-13.54.56:819][887]Log file closed, 07/24/14 08:54:56
